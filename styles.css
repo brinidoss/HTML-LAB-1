@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+}
+.header-navigation{
+    text-decoration: none;
+}
+.footer-navigation{
+    text-decoration: none;
+}
+.button{
+    align-self: center;
+}
+div.circle{
+    background-color: red;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.circle{
+    position: relative;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+}
+/*list-style-type: none = no bullets*/
+/*text-decoration: none = get rid of underline*/
