@@ -1,11 +1,12 @@
 body{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
 }
 header{
     display: flex;
     flex-direction: column;
 }
-ul{
+.menu{
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -13,14 +14,36 @@ ul{
     margin: 0;
     padding-left: 0;
 }
-.header-navigation{
-    text-decoration: none;
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.footer-navigation{
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vh;
+}
+.links{
+    align-self: center;
+}
+a{
     text-decoration: none;
 }
 .button{
-    align-self: center;
+ text-align: center;
+}
+
+p{
+    border-left: solid #69696a;
+    padding-left: 10px;
 }
 div.circle{
     background-color: red;
