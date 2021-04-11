@@ -26,8 +26,13 @@ main{
     margin-top: 40px;
     max-height: 70vh;
 }
-#body-logo{
+#main-logo{
     color: #000;
+}
+p{
+    border-left: solid #69696a;
+    padding-left: 10px;
+    color: #69696a;
 }
 footer{
     position: fixed;
@@ -41,27 +46,30 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
+#footer-logo{
+    color: #000;
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+    padding: 5px;
 }
 .footer-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 30vw;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 .links{
     align-self: center;
     margin-bottom: 0px;
     font-size: 15px;
     padding: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 a{
     text-decoration: none;
@@ -76,23 +84,7 @@ a{
  margin-top: 10px;
 }
 
-p{
-    border-left: solid #69696a;
-    padding-left: 10px;
-    color: #69696a;
-}
-#footer-logo{
-    color: #000;
-    font-size: 15px;
-    margin: 0px 0px 0px 20px;
-    padding: 5px;
-}
-div.circle{
-    background-color: red;
-    border-radius: 100%;
-    height: 100px;
-    width: 100px;
-}
+
 .circle{
     position: relative;
     width: 100%;
@@ -100,6 +92,42 @@ div.circle{
 
 
 @media only screen and (min-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-body{
+        width: 50vw;
+    }
+    .circle-container{
+        width: 50vw;
+        position: relative;
+    }
+    .large-circle{
+    background-color: rgba(247, 136, 167, .6);
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    }
+    .medium-circle{
+        background-color: rgba(247, 193, 162, .7);
+        border-radius: 100%;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+    }
+    .small-circle{
+        background-color: rgba(207, 130, 213, .6);
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 30px;
+        right: 0px;
+    }
 }
-/*list-style-type: none = no bullets*/
-/*text-decoration: none = get rid of underline*/
