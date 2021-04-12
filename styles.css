@@ -92,6 +92,29 @@ a{
 
 
 @media only screen and (min-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #header-logo{
+        margin-top: 0px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30vw;
+        max-height: 20vh;
+        height: auto;
+        
+    }
+    #hire-us{
+        margin-top: 0px;
+        padding: 8px 4px 8px 4px;
+        margin-top: -8px;
+    }
     main{
         display: flex;
         flex-direction: row;
@@ -129,5 +152,8 @@ a{
         position: absolute;
         top: 30px;
         right: 0px;
+    }
+    .footer-nav{
+        max-width: 20vw;
     }
 }
